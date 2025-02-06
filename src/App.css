@@ -1,0 +1,33 @@
+/* 
+  Style your elements by creating CSS classes here.
+  Below, you can see an example of a class called "menu" that changes the color of the text to blue. Modify according to your needs.
+*/
+
+.menu-item {
+  padding: 2vh;
+  justify-content: center;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5vh;
+  margin-top: 5vh;
+}
+
+.logo {
+  max-width: 15vh;
+  max-height: 15vh;
+}
+
+.first-tag-line{
+  text-align: center;
+  color: rgba(46, 118, 56, 0.543);
+  font: italic 1.75vh 'Apple Chancery', cursive;
+}
+
+.second-tag-line {
+  text-align: center;
+  margin-bottom: 5vh;
+}
