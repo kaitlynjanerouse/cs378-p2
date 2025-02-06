@@ -61,6 +61,7 @@
   text-align: left;
   padding: 0vh;   
   padding-top: 1vh;
+  padding-left: 0vh !important;
 }
 
 .button-container {
