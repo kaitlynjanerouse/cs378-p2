@@ -87,12 +87,12 @@ function App() {
       </div>
       <div class="first-tag-line">Sweet Sips From Scratch</div>
       <div class="second-tag-line">The Best Coffee at UT!</div>
-      <div className='menu-items'>
+      <div class='container'>
         {menuItems.map((item) => (
-          <MenuItem 
+          <MenuItem
             title={item.title} 
             description={item.description} 
-            price={item.price} 
+            price={'$' + item.price} 
             image={'/images/' + item.imageName} 
         />
         ))}

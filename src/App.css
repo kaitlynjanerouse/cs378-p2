@@ -3,11 +3,6 @@
   Below, you can see an example of a class called "menu" that changes the color of the text to blue. Modify according to your needs.
 */
 
-.menu-item {
-  padding: 2vh;
-  justify-content: center;
-}
-
 .logo-container {
   display: flex;
   justify-content: center;
@@ -30,4 +25,54 @@
 .second-tag-line {
   text-align: center;
   margin-bottom: 5vh;
+}
+
+.menu-item {
+  padding: 2vh;
+  justify-content: center;
+}
+
+.item-image {
+  width: 100%;
+  max-width: 15vh;
+  max-height: 12vh;
+  border-radius: 1vh;
+}
+
+.item-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.item-title {
+  font-size: 1.5vh;
+  font-weight: bold;
+}
+
+.item-description {
+  font-size: 1.25vh;
+  padding-top: 1vh;
+  font-weight: 150;
+}
+
+.item-price {
+  font-size: 1.25vh;
+  text-align: left;
+  padding: 0vh;   
+  padding-top: 1vh;
+}
+
+.button-container {
+  font-size: 1.25vh;
+  padding: 0vh;
+  padding-right: 1vh;
+  text-align: right;
+  padding-top: 1vh;
+}
+
+.button-style {
+  background-color: rgba(146, 118, 118, 0.543);
+  border-radius: 1vh;
+  box-shadow: .25vh .25vh .25vh rgba(0, 0, 0, 0.3); 
 }
