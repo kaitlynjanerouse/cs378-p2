@@ -84,14 +84,14 @@ function App() {
   return (
     <div>
       <MenuHeader/>
-        {menuItems.map((item) => (
-          <MenuItem
-            title={item.title} 
-            description={item.description} 
-            price={'$' + item.price} 
-            image={process.env.PUBLIC_URL + '/images/' + item.imageName} 
-        />
-        ))}
+      {menuItems.map((item) => (
+        <MenuItem
+          title={item.title} 
+          description={item.description} 
+          price={'$' + item.price} 
+          image={process.env.PUBLIC_URL + '/images/' + item.imageName} 
+      />
+      ))}
     </div>
   );
 }
